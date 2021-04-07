@@ -53,4 +53,4 @@ Trabalho 10 - Desenvolva um programa que some duas matrizes modelo Amxn + Amxn =
               usuário escolha os números de entrada de ambas as matrizes e apresente como resultado as duas
               matrizes de entrada e a matriz resultado, pode ser uma em baixo da outra. Identifique cada matriz
               ao apresentar o resultado. 
-              Falta fazer!
+              https://github.com/RodrigoBR-dev/logica-de-programacao/blob/main/Projeto_Final_Soma_Matrizes.por
