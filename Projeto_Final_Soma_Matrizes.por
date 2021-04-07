@@ -25,20 +25,31 @@ programa
 		}
 		para (inteiro i = 0; i < lin; i++){
 			para (inteiro j = 0; j < col; j++){
+				se (tab1[i][j] < 10){
+					escreva (0)
+				}
 				escreva (tab1[i][j], " ")
 			}
-			escreva ("\n")
-		}
-		escreva ("+\n")
-		para (inteiro i = 0; i < lin; i++){
+			se (i == 1){
+				escreva ("+ ")
+			} senao {
+				escreva ("  ")
+			}
 			para (inteiro j = 0; j < col; j++){
+				se (tab2[i][j] < 10){
+					escreva (0)
+				}
 				escreva (tab2[i][j], " ")
 			}
-			escreva ("\n")
-		}
-		escreva ("=\n")
-		para (inteiro i = 0; i < lin; i++){
+			se (i == 1){
+				escreva ("= ")
+			} senao {
+				escreva ("  ")
+			}
 			para (inteiro j = 0; j < col; j++){
+				se (tabSoma[i][j] < 10){
+					escreva (0)
+				}
 				escreva (tabSoma[i][j], " ")
 			}
 			escreva ("\n")
@@ -50,7 +61,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 678; 
+ * @POSICAO-CURSOR = 1180; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
