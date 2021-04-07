@@ -42,7 +42,7 @@ Trabalho  7 - Elabora um programa que solicita ao usuário a quantidade de núme
 Trabalho  8 - Elabora um programa que peça ao usuário que entre com 10 números. Após solicite que o usuário
               escolha se quer que sejam impressos os números em ordem crescente ou decrescente e conforme
               a escolha do usuário e faça a impressão da série.
-              Falta fazer!
+              https://github.com/RodrigoBR-dev/logica-de-programacao/blob/main/Projeto_Final_Ordem_Cresc_Decresc.por
 
 Trabalho  9 - Elabore um programa que calcule uma equação do 2° Grau modelo ax²+bx+c. Solicite a entrada das
               variáveis a, b, c e calcule as raízes. Apresente no final do cálculo a equação composta pelas
