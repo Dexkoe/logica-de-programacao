@@ -22,7 +22,7 @@ programa
 
     funcao logico primo(inteiro n) {
             inteiro d
-            se(n <= 1){
+            se(n < 1){
                 retorne falso
             }
             para(d = 2; d < n; d++) {
@@ -38,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 313; 
+ * @POSICAO-CURSOR = 531; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
