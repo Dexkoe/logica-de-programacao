@@ -5,7 +5,7 @@ programa
  {
         inteiro quantidade, contador = 1, qtdPrimo = 0
 
-        escreva("Digite a quantidade de numeros primos para ver: ")
+        escreva("Digite a quantidade de números primos: ")
         leia(quantidade)
 
         enquanto(qtdPrimo != quantidade) {
@@ -17,20 +17,18 @@ programa
                 contador ++
             }
         }
-
     }
 
     funcao logico primo(inteiro n) {
-            inteiro d
             se(n < 1){
                 retorne falso
             }
-            para(d = 2; d < n; d++) {
+            para(inteiro d = 2; d < n; d++) {
                 se (n % d == 0) {
                     retorne falso
                 }
             }
-                retorne verdadeiro
+            retorne verdadeiro
         }
 }
 /* $$$ Portugol Studio $$$ 
@@ -38,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 531; 
+ * @POSICAO-CURSOR = 724; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
